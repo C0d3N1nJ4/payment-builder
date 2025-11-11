@@ -1,6 +1,4 @@
-# Payment Builder
-
-This service allows users to upload CSV files for building complete ISO20022 payment messages with all fields populated.
+# Payment Builder Service Components
 
 ## Overview
 
@@ -61,13 +59,13 @@ The Payment Builder service processes CSV files containing payment information a
 
 ## CSV Format
 
-See `docs/CSV_FIELD_MAPPING.md` for complete field documentation.
+See `CSV_FIELD_MAPPING.md` for complete field documentation.
 
-Sample CSV template: `docs/csv-template.csv`
+Sample CSV template: `csv-template.csv`
 
 ## Configuration
 
-Configure input/output directories in `src/main/resources/application.yaml`:
+Configure input/output directories in `application.yaml`:
 
 ```yaml
 payment:
@@ -95,8 +93,3 @@ Or use environment variables:
 - Optional and required field validation
 - XML special character escaping
 - Unique message and transaction ID generation
-
-## Documentation
-
-- [CSV Field Mapping](docs/CSV_FIELD_MAPPING.md) - Complete field mapping documentation
-- [Service Architecture](docs/SERVICE_ARCHITECTURE.md) - Detailed architecture documentation

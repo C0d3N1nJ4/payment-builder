@@ -1,0 +1,3 @@
+debtor_name,debtor_iban,debtor_bic,debtor_address_line1,debtor_country,creditor_name,creditor_iban,creditor_bic,creditor_address_line1,creditor_country,amount,currency,execution_date,end_to_end_id,remittance_info,charge_bearer
+John Doe,DE89370400440532013000,COBADEFFXXX,123 Main St,DE,Jane Smith,GB29NWBK60161331926819,NWBKGB2LXXX,456 High St,GB,1000.50,EUR,2025-11-15,INV-12345,Payment for Invoice 12345,SLEV
+Acme Corp,FR1420041010050500013M02606,BNPAFRPPXXX,10 Rue de Commerce,FR,Tech Solutions Ltd,NL91ABNA0417164300,ABNANL2AXXX,25 Dam Square,NL,5500.00,EUR,2025-11-16,PO-98765,Purchase Order 98765,SLEV
